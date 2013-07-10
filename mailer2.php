@@ -92,21 +92,6 @@ echo "Number of emails: $emailCount";
 $countBad = count($badLinks);
 echo "Number of valid links with no email: $countBad";
 
-//$badNum = 0;
-//foreach($badLinks as $bad)
-{
-    echo "<br> $badNum $bad[0] <br> $bad[1]";
-    $badNum ++;
-}
 
+?>
 
-foreach($linkArray as $data)
- {
-     //echo $i . "<p> Twitter Address: " . $data[0] .
-       //      "</br> Twitter Email: " . $data[1] . "</p>";
- 
-     $i ++ ;
- }
-echo "<p>";
-//var_dump($explode);
-echo "</p>";
