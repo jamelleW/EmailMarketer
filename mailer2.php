@@ -1,6 +1,6 @@
 <?php
 
-// function to find and return email, returns False if no email found
+// finds and returns email given text data, returns False if no email found
 function check_email($profileText)
 {
 
